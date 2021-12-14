@@ -17,7 +17,7 @@ import { DoctorDashboardComponent } from './doctor-dashboard/doctor-dashboard.co
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DoctorAppointmentsComponent } from './doctor-appointments/doctor-appointments.component';
 import { DoctorClinicsComponent } from './doctor-clinics/doctor-clinics.component';
-import { AuthGuard } from './auth.guard';
+import { AuthGuard } from './shared/guards/auth.guard';
 import { DoctorsListService } from './doctors-list.service';
 import { LoginServiceService } from './login-service.service';
 import { TokenInterceptorService } from './token-interceptor.service';
