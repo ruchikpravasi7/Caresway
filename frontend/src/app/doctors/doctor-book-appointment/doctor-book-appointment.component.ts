@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { DoctorListDoctorDetailsService } from "../doctor-list-doctor-details.service";
+import { DoctorListDoctorDetailsService } from "../../shared/services/doctor-list-doctor-details.service";
 import { ActivatedRoute,Router } from "@angular/router";
-import { DoctorBookAppointmentService } from "../doctor-book-appointment.service";
+import { DoctorBookAppointmentService } from "../../shared/services/doctor-book-appointment.service";
 
 @Component({
   selector: 'app-doctor-book-appointment',

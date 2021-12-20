@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
-import {LoginServiceService} from '../login-service.service';
+import {LoginServiceService} from '../../shared/services/login-service.service';
 
 @Component({
   selector: 'app-doctor-dashboard',

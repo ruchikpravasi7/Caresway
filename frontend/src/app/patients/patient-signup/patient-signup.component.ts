@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SignUpService } from "../sign-up.service";
+import { SignUpService } from "../../shared/services/sign-up.service";
 
 
 @Component({

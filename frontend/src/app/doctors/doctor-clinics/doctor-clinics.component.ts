@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DoctorCLinicsService } from '../doctor-clinics.service';
+import { DoctorCLinicsService } from '../../shared/services/doctor-clinics.service';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({

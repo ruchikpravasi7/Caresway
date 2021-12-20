@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { DoctorMyProfileService } from '../doctor-my-profile.service';
+import { DoctorMyProfileService } from '../../shared/services/doctor-my-profile.service';
 
 @Component({
   selector: 'app-doctor-my-profile-edit',

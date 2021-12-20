@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router,ActivatedRoute} from '@angular/router';
 import { from } from 'rxjs';
-import {LoginServiceService} from '../login-service.service';
+import {LoginServiceService} from '../../shared/services/login-service.service';
 
 @Component({
   selector: 'app-patient-dashboard',

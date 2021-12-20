@@ -1,7 +1,7 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { doctorListInterface } from "./doctorListInterface";
+import { doctorListInterface } from "../interface/doctorListInterface";
 import { catchError } from 'rxjs/operators';
 
 @Injectable({

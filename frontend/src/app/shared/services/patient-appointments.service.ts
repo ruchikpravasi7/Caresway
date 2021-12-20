@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { patientAppointmentInterface } from "./patientAppointmentInterface";
-import { patientAppointmentPrescriptionInterface } from './patientAppointmentPrescriptionInterface';
+import { patientAppointmentInterface } from "../interface/patientAppointmentInterface";
+import { patientAppointmentPrescriptionInterface } from '../interface/patientAppointmentPrescriptionInterface';
 
 @Injectable({
   providedIn: 'root'

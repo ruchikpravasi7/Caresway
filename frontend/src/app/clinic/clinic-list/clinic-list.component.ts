@@ -1,8 +1,8 @@
 import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 import { Component, OnInit } from '@angular/core';
-import { ClinicListService } from '../clinic-list.service';
+import { ClinicListService } from '../../shared/services/clinic-list.service';
 import {Router,ActivatedRoute, ParamMap} from '@angular/router';
-import { LoginServiceService } from "../login-service.service";
+import { LoginServiceService } from "../../shared/services/login-service.service";
 
 @Component({
   selector: 'app-clinic-list',

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {DoctorsListService} from '../doctors-list.service';
+import {DoctorsListService} from '../../shared/services/doctors-list.service';
 import {Router,ActivatedRoute, ParamMap} from '@angular/router';
 import {Observable} from 'rxjs';
 import {FormControl} from '@angular/forms';
 import {map, startWith} from 'rxjs/operators';
 import { MatAutocomplete } from '@angular/material/autocomplete';
-import { LoginServiceService } from "../login-service.service";
+import { LoginServiceService } from "../../shared/services/login-service.service";
 
 @Component({
   selector: 'app-doctor-list',
