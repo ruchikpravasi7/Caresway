@@ -1,8 +1,8 @@
-const Patient = require("../models/patient");
-const SignUp=require("../models/signup");
-const Doctor=require("../models/doctor");
-const Clinic = require("../models/clinic");
-const router = require('express').Router();
+// const Patient = require("../models/patient");
+// const SignUp=require("../models/signup");
+// const Doctor=require("../models/doctor");
+// const Clinic = require("../models/clinic");
+const router = require("express").Router();
 
 // router.get('/',async(req,res)=>{
 //     const match = {};
@@ -29,7 +29,7 @@ const router = require('express').Router();
 //           console.log(arr);
 //           res.send(arr);
 //         }
-        
+
 //     })
 // })
 
@@ -41,13 +41,12 @@ const router = require('express').Router();
 //   }])
 // })
 
-router.get('/test',async(req,res)=>{
-  const clinics=await Clinic.find({'clinic_address.city':'ahmedabad'});
-  clinics.forEach((clinic)=>{
-    console.log(clinic.clinic_address);
-  })
-  // console.log(clinics.address);
-})
+// router.get('/test',async(req,res)=>{
+//   const clinics=await Clinic.find({'clinic_address.city':'ahmedabad'});
+//   clinics.forEach((clinic)=>{
+//     console.log(clinic.clinic_address);
+//   })
+//   // console.log(clinics.address);
+// })
 
-
-module.exports=router;
+module.exports = router;

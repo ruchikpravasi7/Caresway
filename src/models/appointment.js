@@ -6,22 +6,21 @@ const appointmentSchema = new mongoose.Schema(
     doctorId: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
-      ref: "Doctor",
+      ref: "User",
     },
     patientId: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
-      ref: "Patient",
+      ref: "User",
     },
     date: {
       type: Date,
     },
-    time: {
+    status: {
       type: String,
-    },
-    completed: {
-      type: Boolean,
-      default:false
+      required: true,
+      trim: true,
+      lowercase: true,
     },
   },
   {
